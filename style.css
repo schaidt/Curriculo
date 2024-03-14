@@ -15,7 +15,8 @@ body {
 
 p {
     font-size: 0.9em;
-    padding: 6px 12px
+    padding: 6px 12px;
+    text-indent: 30px;
 }
 
 .p1 {
@@ -177,7 +178,7 @@ header {
 
 
 
-main {
+/*main {
     
     z-index: 1;
     overflow: hidden;
@@ -194,18 +195,66 @@ main {
     
 
 
+}*/
+
+main {
+    
+    z-index: 1;
+    overflow: hidden;
+    font-family: "Merriweather Sans", sans-serif;
+    background-color: white;
+    text-align: justify;
+    margin: 0;
+    height: auto;
+    width: 797px;
+    padding-top: 200px;
+    padding-bottom: 40px;
+    
+
+
+}
+
+/*.table-3 {
+    position: center;
+    align-items: center;
+    text-align: right;
+    width: 100px;
+}*/
+
+
+.divm5 {
+    display: inline-block;
+   position: inherit;
+    height: 50px;
+    width: 650px;
+    padding: 0px;
+    margin: 0px;
+
 }
 
 
 
 .divm6 {
     display: inline-block;
-   position: inherit;
+    position: inherit;
     background-color: rgb(211, 8, 8);
-    height: 500px;
-    width: 50px;
-    padding: 20px;
+    height: 450px;
+    width: 80px;
+    padding: 0px;
+    margin: 20px 20px;
+
+
+}
+
+.divm7 {
+    display: inline-block;
+   position: inherit;
+    background-color: cyan;
+    height: 400px;
+    width: 640px;
+    padding: 0px;
     margin: 0px;
+  
 
 
 }
@@ -218,6 +267,7 @@ h1 {
     font-size: 1.1em;
     padding: 10px 0px;
     margin: 5px 5px;
+    box-shadow: none;
 
 }
 
