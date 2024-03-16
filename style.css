@@ -149,7 +149,7 @@ header {
 
 #menu-h ul {
 
-    max-width: 6000px;
+    max-width: 4500px;
     list-style-type: none;
     padding: 0;
     background-color: black;
@@ -208,7 +208,7 @@ main {
     height: auto;
     width: 797px;
     padding-top: 200px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     
 
 
@@ -220,6 +220,18 @@ main {
     text-align: right;
     width: 100px;
 }*/
+
+.divtit {
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 130px;
+    height: 40px;
+}
+
+.divpf {
+    background-color: white;
+}
 
 
 .divm5 {
@@ -238,10 +250,10 @@ main {
     display: inline-block;
     position: inherit;
     background-color: rgb(211, 8, 8);
-    height: 450px;
+    height: 2000px;
     width: 80px;
     padding: 0px;
-    margin: 20px 20px;
+    margin: 10px 20px;
 
 
 }
@@ -249,7 +261,7 @@ main {
 .divm7 {
     display: inline-block;
    position: inherit;
-    background-color: cyan;
+    background-color: rgb(247, 243, 186);
     height: 400px;
     width: 640px;
     padding: 0px;
@@ -278,6 +290,7 @@ h1 {
 }
 
 .divp {
+    /*background-color: rgb(247, 243, 186);*/
     font-size: 0.9em;
     padding: 3px 10px;
     text-align: left;
